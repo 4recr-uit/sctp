@@ -1,0 +1,260 @@
+[
+  {
+    "_index": "packets-2026-11-11",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "enx00e04c534458"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "Nov 11, 2026 16:13:35.805472165 +07",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1794388415.805472165",
+          "frame.time_delta": "0.002138728",
+          "frame.time_delta_displayed": "0.000000000",
+          "frame.time_relative": "4.581686104",
+          "frame.number": "3610",
+          "frame.len": "1514",
+          "frame.cap_len": "1514",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:sctp"
+        },
+        "eth": {
+          "eth.dst": "00:e0:4c:53:44:58",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "RealtekS_53:44:58",
+            "eth.dst.oui": "57420",
+            "eth.dst.oui_resolved": "Realtek Semiconductor Corp.",
+            "eth.addr": "00:e0:4c:53:44:58",
+            "eth.addr_resolved": "RealtekS_53:44:58",
+            "eth.addr.oui": "57420",
+            "eth.addr.oui_resolved": "Realtek Semiconductor Corp.",
+            "eth.dst.lg": "0",
+            "eth.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "08:8f:c3:83:44:e2",
+          "eth.src_tree": {
+            "eth.src_resolved": "08:8f:c3:83:44:e2",
+            "eth.src.oui": "561091",
+            "eth.addr": "08:8f:c3:83:44:e2",
+            "eth.addr_resolved": "08:8f:c3:83:44:e2",
+            "eth.addr.oui": "561091",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x02",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "2"
+          },
+          "ip.len": "1500",
+          "ip.id": "0xfc08",
+          "ip.flags": "0x40",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "64",
+          "ip.proto": "132",
+          "ip.checksum": "0xc97c",
+          "ip.checksum.status": "2",
+          "ip.src": "172.31.11.110",
+          "ip.addr": "172.31.11.110",
+          "ip.src_host": "172.31.11.110",
+          "ip.host": "172.31.11.110",
+          "ip.dst": "172.31.11.106",
+          "ip.addr": "172.31.11.106",
+          "ip.dst_host": "172.31.11.106",
+          "ip.host": "172.31.11.106"
+        },
+        "sctp": {
+          "sctp.srcport": "9899",
+          "sctp.dstport": "39205",
+          "sctp.verification_tag": "0x3330a472",
+          "sctp.assoc_index": "65535",
+          "sctp.port": "9899",
+          "sctp.port": "39205",
+          "sctp.checksum": "0xd3005426",
+          "sctp.checksum.status": "2",
+          "DATA chunk (ordered, middle segment, TSN: 2197, SID: 2, SSN: 7, PPID: 0, payload length: 1452 bytes)": {
+            "sctp.chunk_type": "0",
+            "sctp.chunk_type_tree": {
+              "sctp.chunk_bit_1": "0",
+              "sctp.chunk_bit_2": "0"
+            },
+            "sctp.chunk_flags": "0x00",
+            "sctp.chunk_flags_tree": {
+              "sctp.data_i_bit": "0",
+              "sctp.data_u_bit": "0",
+              "sctp.data_b_bit": "0",
+              "sctp.data_e_bit": "0"
+            },
+            "sctp.chunk_length": "1468",
+            "sctp.data_tsn": "2197",
+            "sctp.data_tsn_tree": {
+              "sctp.retransmission": "3547",
+              "sctp.retransmission_tree": {
+                "_ws.expert": {
+                  "sctp.retransmission.expert": "",
+                  "_ws.expert.message": "Retransmitted TSN",
+                  "_ws.expert.severity": "4194304",
+                  "_ws.expert.group": "33554432"
+                },
+                "sctp.retransmission_time": "0.065046944"
+              }
+            },
+            "sctp.data_tsn_raw": "1397041945",
+            "sctp.data_sid": "0x0002",
+            "sctp.data_ssn": "7",
+            "sctp.data_payload_proto_id": "0"
+          }
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2026-11-11",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "enx00e04c534458"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "Nov 11, 2026 16:14:06.422064706 +07",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1794388446.422064706",
+          "frame.time_delta": "0.002082945",
+          "frame.time_delta_displayed": "30.616592541",
+          "frame.time_relative": "35.198278645",
+          "frame.number": "27093",
+          "frame.len": "1514",
+          "frame.cap_len": "1514",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:sctp"
+        },
+        "eth": {
+          "eth.dst": "00:e0:4c:53:44:58",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "RealtekS_53:44:58",
+            "eth.dst.oui": "57420",
+            "eth.dst.oui_resolved": "Realtek Semiconductor Corp.",
+            "eth.addr": "00:e0:4c:53:44:58",
+            "eth.addr_resolved": "RealtekS_53:44:58",
+            "eth.addr.oui": "57420",
+            "eth.addr.oui_resolved": "Realtek Semiconductor Corp.",
+            "eth.dst.lg": "0",
+            "eth.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "08:8f:c3:83:44:e2",
+          "eth.src_tree": {
+            "eth.src_resolved": "08:8f:c3:83:44:e2",
+            "eth.src.oui": "561091",
+            "eth.addr": "08:8f:c3:83:44:e2",
+            "eth.addr_resolved": "08:8f:c3:83:44:e2",
+            "eth.addr.oui": "561091",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x02",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "2"
+          },
+          "ip.len": "1500",
+          "ip.id": "0x36e1",
+          "ip.flags": "0x40",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "64",
+          "ip.proto": "132",
+          "ip.checksum": "0x8ea4",
+          "ip.checksum.status": "2",
+          "ip.src": "172.31.11.110",
+          "ip.addr": "172.31.11.110",
+          "ip.src_host": "172.31.11.110",
+          "ip.host": "172.31.11.110",
+          "ip.dst": "172.31.11.106",
+          "ip.addr": "172.31.11.106",
+          "ip.dst_host": "172.31.11.106",
+          "ip.host": "172.31.11.106"
+        },
+        "sctp": {
+          "sctp.srcport": "9899",
+          "sctp.dstport": "39205",
+          "sctp.verification_tag": "0x3330a472",
+          "sctp.assoc_index": "65535",
+          "sctp.port": "9899",
+          "sctp.port": "39205",
+          "sctp.checksum": "0x5f1eb9f0",
+          "sctp.checksum.status": "2",
+          "DATA chunk (ordered, middle segment, TSN: 17181, SID: 3, SSN: 69, PPID: 0, payload length: 1452 bytes)": {
+            "sctp.chunk_type": "0",
+            "sctp.chunk_type_tree": {
+              "sctp.chunk_bit_1": "0",
+              "sctp.chunk_bit_2": "0"
+            },
+            "sctp.chunk_flags": "0x00",
+            "sctp.chunk_flags_tree": {
+              "sctp.data_i_bit": "0",
+              "sctp.data_u_bit": "0",
+              "sctp.data_b_bit": "0",
+              "sctp.data_e_bit": "0"
+            },
+            "sctp.chunk_length": "1468",
+            "sctp.data_tsn": "17181",
+            "sctp.data_tsn_tree": {
+              "sctp.retransmission": "27004",
+              "sctp.retransmission_tree": {
+                "_ws.expert": {
+                  "sctp.retransmission.expert": "",
+                  "_ws.expert.message": "Retransmitted TSN",
+                  "_ws.expert.severity": "4194304",
+                  "_ws.expert.group": "33554432"
+                },
+                "sctp.retransmission_time": "0.091855901"
+              }
+            },
+            "sctp.data_tsn_raw": "1397056929",
+            "sctp.data_sid": "0x0003",
+            "sctp.data_ssn": "69",
+            "sctp.data_payload_proto_id": "0"
+          }
+        }
+      }
+    }
+  }
+]
