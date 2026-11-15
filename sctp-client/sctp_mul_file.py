@@ -2,7 +2,12 @@ import socket
 import sctp
 import time
 
+from sctp_connection import connect_client
+
 HOST = "172.31.11.110"
+# Set both local IPv4 addresses to enable multihoming.
+ETHERNET_IP = ""
+WIFI_IP = ""
 
 client = sctp.sctpsocket_tcp(socket.AF_INET)
 
@@ -28,7 +33,7 @@ try:
     for name in filenames:
         file_fd.append(open(name, "wb"))
 
-    client.connect((HOST, 9899))
+    connect_client(client, HOST, ETHERNET_IP, WIFI_IP)
 
     time_start = time.perf_counter()
 

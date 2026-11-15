@@ -2,7 +2,12 @@ import socket
 import sctp
 import time
 
+from sctp_connection import connect_client
+
 HOST = "172.197.216.155"
+# Set both local IPv4 addresses to enable multihoming.
+ETHERNET_IP = ""
+WIFI_IP = ""
 
 client = sctp.sctpsocket_tcp(socket.AF_INET)
 
@@ -15,7 +20,7 @@ print(f"SNDBUF: {client.getsockopt(socket.SOL_SOCKET, socket.SO_SNDBUF)} bytes")
 print(f"RCVBUF: {client.getsockopt(socket.SOL_SOCKET, socket.SO_RCVBUF)} bytes")
 
 try:
-    client.connect((HOST, 9899))
+    connect_client(client, HOST, ETHERNET_IP, WIFI_IP)
 
     while msg := client.recv(65536):
         with open("/dev/null", "wb") as file:
